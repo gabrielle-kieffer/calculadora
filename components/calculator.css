@@ -1,0 +1,86 @@
+.wrapper{
+    display: flex;
+    height: 400px;
+    width: 280px;
+    margin: 0;
+    margin: 120px 0px 0px 120px;
+    background-color: black;
+    border-radius: 10px;
+    
+}
+
+
+ button{
+    font-size: 30px;
+    margin: 0;
+    background-color: rgba(114, 112, 112, 0.76); 
+    border-radius: 25px;
+    border: none;
+    height: 42px;
+    width: 46px;
+    color: white;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.containerButton{
+    flex-wrap: wrap;
+    margin: 43px 30px 38px 32px;
+    display: flex;
+    gap: 10px;
+    max-width: 215px;
+}
+
+#clear{
+    background-color: rgba(230, 230, 225, 0.76); 
+    border-radius: 25px;
+    border: none;
+    height: 41px;
+    width: 158px;
+    color: black;
+}
+
+#equality{
+    margin: 0px ;
+    background-color: orange;
+    color: white;
+}
+
+#addition{
+    background-color: orange;
+    color: white;
+}
+
+#zero{
+  
+    border-radius: 25px;
+    border: none;
+    height: 41px;
+    width: 103px;
+   
+}
+
+#share{
+    background-color: orange;
+    color: white; 
+}
+
+#subtraction{
+    background-color: orange;
+    color: white;
+}
+
+#multiply{
+    background-color: orange;
+    color: white;
+}
+
+h1{
+    color: white;
+    margin: 0px 10px 21px 168px;
+    font-weight: 400;
+    flex-direction: end;
+}
+
